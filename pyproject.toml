@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectral-forensics"
+version = "0.1.0"
+description = "Detection of AI-Generated Images via 2D FFT and Spectral Artifact Analysis"
+readme = "PROJECT_OVERVIEW.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "Pillow",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+  "joblib",
+  "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+app = ["streamlit", "plotly", "reportlab"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

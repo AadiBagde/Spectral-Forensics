@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-10-12T13:58:18.756760",
+  "input_directory": "D:\\Projects\\MultiMediaForensics\\Spectral_Forensics\\datasets\\verified_parquet_images",
+  "schema_version": "1.1.0",
+  "results": {
+    "train": {
+      "output_path": "D:\\Projects\\MultiMediaForensics\\Spectral_Forensics\\datasets\\processed\\verified_train_features.csv",
+      "rows": 826,
+      "classes": {
+        "REAL": 457,
+        "FAKE": 369
+      }
+    },
+    "test": {
+      "output_path": "D:\\Projects\\MultiMediaForensics\\Spectral_Forensics\\datasets\\processed\\verified_test_features.csv",
+      "rows": 146,
+      "classes": {
+        "REAL": 81,
+        "FAKE": 65
+      }
+    }
+  },
+  "total_failures": 0
+}

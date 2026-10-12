@@ -1,0 +1,15 @@
+{
+    "baseline": {
+        "accuracy": 0.6164383561643836,
+        "fake_f1": 0.5942028985507246
+    },
+    "candidate": {
+        "accuracy": 0.5753424657534246,
+        "fake_f1": 0.5373134328358209
+    },
+    "difference": {
+        "accuracy_pp": -0.04109589041095896,
+        "fake_f1_abs": -0.05688946571490372
+    },
+    "conclusion": "Retained baseline"
+}

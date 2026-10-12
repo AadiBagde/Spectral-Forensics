@@ -1,0 +1,15 @@
+{
+    "top_10_features": [
+        "freq_0",
+        "freq_2",
+        "freq_11",
+        "freq_4",
+        "freq_7",
+        "freq_10",
+        "freq_24",
+        "freq_8",
+        "freq_18",
+        "freq_21"
+    ],
+    "limitation": "Feature importance from Random Forest does not imply causality. It indicates which bins provide the most discriminative information for this specific dataset."
+}

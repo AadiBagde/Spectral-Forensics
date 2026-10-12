@@ -1,0 +1,9 @@
+{
+    "model_type": "LogisticRegression",
+    "params": {
+        "classifier__C": 0.01,
+        "classifier__penalty": "l2"
+    },
+    "cv_f1": 0.5935608461787716,
+    "feature_schema": "128 ordered features (freq_0 to freq_127)"
+}

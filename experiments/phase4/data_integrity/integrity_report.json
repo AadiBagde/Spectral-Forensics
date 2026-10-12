@@ -1,0 +1,25 @@
+{
+    "train_size": 826,
+    "test_size": 146,
+    "train_class_distribution": {
+        "REAL": 457,
+        "FAKE": 369
+    },
+    "test_class_distribution": {
+        "REAL": 81,
+        "FAKE": 65
+    },
+    "exact_duplicates": {
+        "train_test_overlap_count": 0,
+        "train_internal_duplicates": 1,
+        "test_internal_duplicates": 0
+    },
+    "metadata": {
+        "has_generator_labels": false,
+        "has_provenance": false
+    },
+    "near_duplicates": {
+        "status": "Not comprehensively checked",
+        "reason": "Requires perceptual hashing library (e.g. imagehash) which is not in dependencies. No obvious filename overlaps detected."
+    }
+}

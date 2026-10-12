@@ -1,0 +1,30 @@
+{
+    "scoring_metric": "FAKE-class F1 (binary)",
+    "cv_folds": 5,
+    "candidates": {
+        "SVM": {
+            "best_score": 0.580923729920449,
+            "best_params": {
+                "classifier__C": 10,
+                "classifier__gamma": "scale",
+                "classifier__kernel": "rbf"
+            }
+        },
+        "RandomForest": {
+            "best_score": 0.5569842226826147,
+            "best_params": {
+                "classifier__max_depth": 10,
+                "classifier__min_samples_leaf": 5,
+                "classifier__n_estimators": 100
+            }
+        },
+        "LogisticRegression": {
+            "best_score": 0.5935608461787716,
+            "best_params": {
+                "classifier__C": 0.01,
+                "classifier__penalty": "l2"
+            }
+        }
+    },
+    "selected_model": "LogisticRegression"
+}
